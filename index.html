@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="body">
+    <div id="canvas">
+      <div id="header">
+        <h1>Pacientes</h1>
+      </div>
+      <div id="content">
+        <div id="tabela">
+          <table>
+            <tr>
+              <p>Tabela de Pacientes</p>
+            </tr>
+            <tr>
+              <th>Código</th>
+              <th>Nome</th>
+              <th>Data de Nascimento</th>
+              <th>Plano de Saúde</th>
+            </tr>
+            <tr>
+              <td>1001</td>
+              <td>Zézinho da Silva</td>
+              <td>20/05/2003</td>
+              <td>Não</td>
+            </tr>
+            <tr>
+              <td>1002</td>
+              <td>Mariazinha da Silva</td>
+              <td>12/02/2003</td>
+              <td>Sim</td>
+            </tr>
+          </table>
+        </div>
+        <div id="formulario">
+          <form>
+            <label for="empty"> </label><br>
+            <label for="fname">Nome:</label>
+            <input type="text" id="inputs" name="fname" value=" "><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="inputs" name="email" value=" "><br><br>
+            <label for="date">Data de Nascimento:</label>
+            <input type="date" id="inputdata" value=" "><br><br>
+            <label for="check">Plano de Saúde:</label>
+            <input type="radio" id="sim" name="escolha">
+            <label for="sim">Sim</label>
+            <input type="radio" id="não" name="escolha">
+            <label for="não">Não</label><br><br>
+            <input id="botoes" type="submit" value="Cadastrar">
+            <input id="botoes" type="button" value="Cancelar">
+            <br><br>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
